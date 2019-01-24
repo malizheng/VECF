@@ -1,0 +1,17 @@
+As the data is too large, we detail the data format in the following. Anyone who use this code should process the raw data into these formats:
+
+0.7_train_ided_whole_data each line: user_id,item_id,rating(not used), review example 1,0,5.0,37129::29336::25100::24676::23129::75506::28801::14638::30379::25100::38893::24676::40098::76166::3042::36141::797::50871::49946::48337::797::54737,37129::11645::25100::34962::3856::2387::54737 ****** It should be noted that the review should be started with the id of "START" and ended with "END"******
+
+c_item_image_features_dict key: item_name value: image_region_feature
+
+0.7_train_user_purchased_items key: user_id value: [item_id,item_id,item_id,...,item_id]
+
+test_user_dict key: "user" value: [user_id,user_id,user_id,...,user_id]
+
+test_item_image_dict key: item_id value:image_region_feature
+
+test_user_purchased_item_dict key: user_id value:[item_id,item_id,item_id,...,item_id]
+
+X_id_dict (X=user,item,word) key: X_name value: X_id
+
+id_X_dict (X=user,item,word) key: X_id value: X_name
