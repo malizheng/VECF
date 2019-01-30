@@ -15,7 +15,7 @@
     .
     ├── conf                    # Config files
     ├── data
-        ├── categoried_data     # Experiment data   
+        ├── categoried_data     # Experiment data 
     ├── results                 # Results saving
     ├── model          
         ├── our_model
@@ -65,4 +65,6 @@ beta = 0.01
 3. Run VECFMain.py
 
 
-## Author# VECF
+## Dataset for evaluating visual explainations
+Under request
+
