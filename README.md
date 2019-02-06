@@ -66,5 +66,5 @@ beta = 0.01
 
 
 ## Dataset for evaluating visual explainations
-Under request
+Upon request
 
